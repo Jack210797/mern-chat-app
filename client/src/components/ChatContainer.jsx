@@ -126,7 +126,7 @@ const ChatContainer = () => {
             <img src={assets.gallery_icon} alt="" className="w-5 mr-2 cursor-pointer" />
           </label>
         </div>
-        <img onClick={handleSendMessage} alt="" className="w-7 cursor-pointer" />
+        <img src={assets.send_button} onClick={handleSendMessage} alt="" className="w-7 cursor-pointer" />
       </div>
     </div>
   ) : (
